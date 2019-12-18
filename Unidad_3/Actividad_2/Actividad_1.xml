@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<document xmlns:com="http://www.lmsgi.net/comidas">
+    <menu precio="10" tarjeta="no">
+        <comida>
+            <com:primero>sopa <com:opcion tipo="sobre"/></com:primero>
+            <com:segundo>chuleta<com:opcion tipo="cerdo"/></com:segundo>
+            <com:postre>flan<com:opcion tipo="huevo"/></com:postre>
+            <com:bebida>agua<com:opcion tamano="0.5"/></com:bebida>        
+        </comida>
+    </menu>
+    <menu precio="25" tarjeta="si">
+        <comida>
+            <com:primero>entremeses<com:opcion tipo="ibericos"/></com:primero>
+            <com:segundo>chuleton<com:opcion tipo="ternera"/></com:segundo>
+            <com:postre>arroz con leche<com:opcion tipo="casero"/></com:postre>
+            <com:bebida>rioja<com:opcion tamano="1"/></com:bebida>
+        </comida>
+    </menu>
+</document>
