@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Ejemplo de tabla compleja</title>
+	
+	<style>
+	table {
+  	border-collapse: collapse;
+	}
+
+	table, td, th {
+ 	border: 1px solid grey;
+	}
+	
+	.button {
+	background-color: #4CAF50; /* Green */
+	border: none;
+	color: white;
+	padding: 16px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	-webkit-transition-duration: 0.4s; /* Safari */
+	transition-duration: 0.4s;
+	cursor: pointer;
+	}
+
+
+	.button {
+	border-radius: 12px;
+  	background-color: white; 
+  	color: black; 
+  	border: 2px solid #008CBA;
+	}
+
+	.button:hover {
+  	background-color: #008CBA;
+  	color: white;
+	}
+	</style>
+
+
+</head>
+
+<body>
+	<h4>Comparativa de reproductores MP3</h4>
+	<blockquote align="center">Tabla comparativa de las caracterósticas técnicas de los reproductores MP3</blockquote>
+	<table align="center" cellpadding="11">
+		<tr>
+			<th></th>
+			<th colspan="3"><img src="../../imagenes/ipodb.png" style="width:24px;height:32px;"></img><img src="../../imagenes/ipodn.png" style="width:20px;height:30px;"></img><br/><strong>MP3 mini</strong></th>
+			<th colspan="2"><img src="../../imagenes/ipodb.png" style="width:48px;height:64px;"></img><img src="../../imagenes/ipodn.png" style="width:40px;height:60px;"></img><br/><strong>MP3 grande</strong></th>
+		</tr>
+		<tr>
+			<th><strong>Capacidad de<br/>almacenamiento</strong></th>
+			<td style="text-align:center">4GB<br/>(1.000<br/>canciones)</td>
+			<td style="text-align:center">8GB<br/>(2.000<br/>canciones)</td>
+			<td style="text-align:center">16GB<br/>(4.000<br/>canciones)</td>
+			<td style="text-align:center">30GB<br/>(7.500 canciones)</td>
+			<td style="text-align:center">80GB<br/>(20.000 canciones)</td>
+		</tr>
+		<tr>
+			<th><strong>Colores</strong></th>
+			<td style="text-align:center"><img src="../../imagenes/puntogris.png"></img></td>
+			<td style="text-align:center"><img src="../../imagenes/puntonegro.png"></img><img src="../../imagenes/puntoverde.png"></img><img src="../../imagenes/puntoazul.png"></img><img src="../../imagenes/puntorosa.png"></img></td>
+			<td style="text-align:center"><img src="../../imagenes/puntonegro.png"></img></td>
+			<td colspan="2" style="text-align:center"><img src="../../imagenes/puntogris.png"></img><img src="../../imagenes/puntonegro.png"></img></td>
+		</tr>
+		<tr>
+			<th><strong>Pantalla</strong></th>
+			<td colspan="3" style="text-align:center">LCD de 3 cm (diagonal) con retroiluminación</td>
+			<td colspan="3" style="text-align:center">LCD de 6 cm (diagonal) con<br/>retroiluminación</td>
+		</tr>
+		<tr>
+			<th rowspan="2"><strong>Tiempo de carga</strong></th>
+			<td rowspan="2" colspan="3" style="text-align:center">Unas 3 horas</td>
+			<td colspan="2" style="text-align:center">Unas 4 horas</td>
+		</tr>
+		<tr>
+			<td colspan="2" style="text-align:center">Unas 2 horas para alcanzar el 80% de la<br/>capacidad</td>
+		</tr>
+	</table>
+	<a href="tablaSencilla.html"><button class="button">Anterior</button></a>
+	<br/>
+	<a href="indice.html"><button class="button">Indice</button></a>
+</body>
+
+</html>
