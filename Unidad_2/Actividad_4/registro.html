@@ -1,53 +1,33 @@
+<!DOCTYPE html>
 <html>
-	<head>
-		<title>Página de Registro</title>
-		<meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
-		<meta name="author" content="Julián Gómez Lavilla"/>
-	</head>
-	<body>
+<head>
+	<title>Página de registro</title>
+	<meta charset="UTF-8">
+</head>
+<body>
+	<h2>Completa tus datos personales</h2>
+	<form action="http://iesbernaldo-lmsgi.000webhostapp.com/formularios.php" method="POST">
+		<label for="nombre" required>Nombre</label><br>
+		<input type="text" name="nombre"><br>
 
-		<h3>Completa tus datos personales</h3>
-		<form action="http://iesbernaldo-lmsgi.000webhostapp.com/formularios.php" method="post">
-			
-			<div>
-			<label>Nombre</label></br>
-			<input type="text" name="Nombre" id="nombre" required>
-			</div>
+		<label for="apellidos">Apellidos</label><br>
+		<input type="text" name="apellidos" style="width: 400px"><br>
 
-			<div>
-			<label>Apellidos</label></br>
-			<input type="text" name="Apellidos" size="50" id="apellidos">
-			</div>
+		<label for="password" required>Contraseña</label><br>
+		<input type="password" name="password"><br>
 
-			<div>
-			<label>Contraseña</label></br>
-			<input type="text" name="Contraseña" id="contraseña" required>
-			</div>
+		<label for="DNI" required>DNI</label><br>
+		<input type="text" name="DNI"><br>	
 
-			<div>
-			<label>DNI</label></br>
-			<input type="text" name="DNI" size="10" id="dni" required>
-			</div>
-	
-			<div>
-			<p>Sexo</p>
-			<p><input type="radio" name="Sexo" value="Hombre" id="hombre">Hombre</p>
-			<p><input type="radio" name="Sexo" value="Mujer" id="mujer">Mujer</p>
-			</div>
-			
-			<div>
-			<p><input type="checkbox" name="Suscribir" id="suscribir">Suscribirme al boletín de novedades.</p>
-			</div>
+		<label for="sexo">Sexo</label><br>
+		<input type="radio" name="sexo" value="hombre" checked>Hombre<br>	
+		<input type="radio" name="sexo" value="mujer">Mujer<br><br>
 
-			<div>
-			<p><input type="checkbox" name="Condiciones" id="condiciones" required>Acepto las condiciones de uso y el tratamiento de mis datos personales.</p>
-			</div>
+		<input type="checkbox" name="sub" checked>Suscribirme al boletín de novedades<br><br>	
 
-			<div>
-			<input type="submit" name="Enviar" id="enviar" value="Enviar datos">
-			<input type="reset" name="Borrar" id="borrar" value="Borrar los datos introducidos">
-			</div>
-
+		<input type="checkbox" name="sub" required>Acepto las condiciones de uso y el tratamiento de mis datos personales<br><br>	
+		<input type="submit" value="Enviar datos">
+		<input type="reset" value="Borrar los datos introducidos">
 	</form>
-	</body>
+</body>
 </html>
