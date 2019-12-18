@@ -1,65 +1,24 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<carta xmlns="http://www.lmsgi.net/carta"
-xmlns:com="http://www.lmsgi.net/comidas" 
-xmlns:cen="http://www.lmsgi.net/cena">
-    <com:menu precio="10" tarjeta="no">
-        <com:comida>
-            <com:primero>
-                sopa 
-                <opcion tipo="sobre"/>
-            </com:primero>
-            <com:segundo>
-                chuleta
-                <opcion tipo="cerdo"/>
-            </com:segundo>
-            <com:postre >
-                flan
-                <opcion tipo="huevo"/>
-            </com:postre>
-        </com:comida>
-        <com:bebida>
-            agua
-            <opcion tamano="0.5"/>
-        </com:bebida>
-    </com:menu>
-    <com:menu precio="25" tarjeta="si">
-        <com:comida>
-            <com:primero>
-                entremeses
-                <opcion tipo="ibericos"/>
-            </com:primero>
-            <com:segundo>
-                chuleton
-                <opcion tipo="ternera"/>
-            </com:segundo>
-            <com:postre>
-                arroz con leche
-                <opcion tipo="casero"/>
-            </com:postre>
-        </com:comida>
-        <com:bebida>
-            rioja
-            <opcion tamano="1"/>
-        </com:bebida>
-    </com:menu>
-    <cen:menu precio="35" tarjeta="si">
-        <cen:comida>
-            <cen:primero>
-                entremeses
-                <opcion tipo="ibericos"/>
-            </cen:primero>
-            <cen:segundo>
-                chuleton
-                <opcion tipo="cerdo"/>
-            </cen:segundo>
-            <cen:postre>
-                arroz con leche
-                <opcion tipo="industrial"/>
-            </cen:postre>
-        </cen:comida>
-        <cen:bebida>
-            cava
-            <opcion tamano="1"/>
-        </cen:bebida>
-    </cen:menu>
-</carta>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<emails xmlns="http://www.lmsgi.net/mail"
+xmlns:thu="http://www.lmsgi.net/thunderbird"
+xmlns:out="http://www.lmsgi.net/outlook"
+xmlns:evo="http://www.lmsgi.net/evolution">
+    <thu:email>
+        <thu:destinatario>correo@gmail.com</thu:destinatario>
+        <thu:origen>julian@gmail.com</thu:origen>
+        <thu:asunto>Asunto</thu:asunto>
+        <thu:cuerpo>Mensaje</thu:cuerpo>
+    </thu:email>
+    <ou:email>
+        <ou:destinatario>correo@gmail.com</ou:destinatario>
+        <ou:origen>julian@gmail.com</ou:origen>
+        <ou:asunto>Asunto</ou:asunto>
+        <ou:cuerpo>Mensaje</ou:cuerpo>
+    </ou:email>
+    <evo:email>
+        <evo:destinatario>correo@gmail.com</evo:destinatario>
+        <evo:origen>julian@gmail.com</evo:origen>
+        <evo:asunto>Asunto</evo:asunto>
+        <evo:cuerpo>Mensaje</evo:cuerpo>
+    </evo:email>
+</emails>
