@@ -2,9 +2,9 @@
 <alumnos xmlns="htttp://www.lmsgi.net/alumnos"
 xmlns:gijon1="http://www.lmsgi.net/ies_numero1"
 xmlns:gijon2="http://www.lmsgi.net/cifp_sectores"
-xmlns:avilesles="http://www.lmsgi.net/cifp_avilesles"
+xmlns:aviles="http://www.lmsgi.net/cifp_aviles"
 xmlns:oviedo="http://www.lmsgi.net/iesdoctor_fleming"
-xmlns:mieresres="http://www.lmsgi.net/ibq"
+xmlns:mieres="http://www.lmsgi.net/ibq"
 >
     <gijon1:alumno>
         <gijon1:apellidos>García Pérez </gijon1:apellidos>
@@ -12,12 +12,12 @@ xmlns:mieresres="http://www.lmsgi.net/ibq"
         <gijon1:centro>I.E.S. Número 1 </gijon1:centro>
         <gijon1:localidad>Gijón</gijon1:localidad>
     </gijon1:alumno>
-    <avilesles:alumno>
+    <aviles:alumno>
         <aviles:apellidos>Martín López </aviles:apellidos>
         <aviles:nombre>Luisa </aviles:nombre>
         <aviles:centro>C.I.F.P. de avileslés </aviles:centro>
         <aviles:localidad>	avileslés</aviles:localidad>
-    </avilesles:alumno>
+    </aviles:alumno>
     <oviedo:alumno>
         <oviedo:apellidos>González Rubiera </oviedo:apellidos>
         <oviedo:nombre>Pedro </oviedo:nombre>
@@ -42,36 +42,36 @@ xmlns:mieresres="http://www.lmsgi.net/ibq"
         <gijon1:centro>	I.E.S. Número 1 </gijon1:centro>
         <gijon1:localidad>Gijón</gijon1:localidad>
     </gijon1:alumno>
-    <avilesles:alumno>
+    <aviles:alumno>
         <aviles:apellidos>Viejo Pérez </aviles:apellidos>
         <aviles:nombre>Ernesto </aviles:nombre>
         <aviles:centro>C.I.F.P. de avileslés </aviles:centro>
         <aviles:localidad>	avileslés</aviles:localidad>
-    </avilesles:alumno>
+    </aviles:alumno>
     <gijon1:alumno>
         <gijon1:apellidos>Nava Domínguez</gijon1:apellidos>
         <gijon1:nombre>Fernando</gijon1:nombre>
         <gijon1:centro>I.E.S. Número 1 </gijon1:centro>
         <gijon1:localidad>Gijón</gijon1:localidad>
     </gijon1:alumno>
-    <mieresres:alumno>
+    <mieres:alumno>
         <mieres:apellidos>García del Riego</mieres:apellidos>
         <mieres:nombre>Clara</mieres:nombre>
         <mieres:centro>I.E.S. Bernaldo de Quirós</mieres:centro>
-        <mieres:localidad>mieresres</mieres:localidad>
-    </mieresres:alumno>
+        <mieres:localidad>mieres</mieres:localidad>
+    </mieres:alumno>
     <gijon2:alumno>
         <gijon2:apellidos>Gómez Lamela</gijon2:apellidos>
         <gijon2:nombre>Javileser</gijon2:nombre>
         <gijon2:centro>CIFP Sectores Industrial y de Servicios</gijon2:centro>
         <gijon2:localidad>Gijón</gijon2:localidad>
     </gijon2:alumno>
-    <mieresres:alumno>
+    <mieres:alumno>
         <mieres:apellidos>Reigal Pérez </mieres:apellidos>
         <mieres:nombre>Sofía</mieres:nombre>
         <mieres:centro>I.E.S. Sánchez Lastra </mieres:centro>
-        <mieres:localidad>mieresres</mieres:localidad>
-    </mieresres:alumno>
+        <mieres:localidad>mieres</mieres:localidad>
+    </mieres:alumno>
     <gijon1:alumno>
         <gijon1:apellidos>García González </gijon1:apellidos>
         <gijon1:nombre>Eva</gijon1:nombre>
@@ -84,12 +84,12 @@ xmlns:mieresres="http://www.lmsgi.net/ibq"
         <gijon2:centro>CIFP Sectores Industrial y de Servicios</gijon2:centro>
         <gijon2:localidad>Gijón</gijon2:localidad>
     </gijon2:alumno>
-    <mieresres:alumno>
+    <mieres:alumno>
         <mieres:apellidos>Rodríguez Nieto </mieres:apellidos>
         <mieres:nombre>Luciano</mieres:nombre>
         <mieres:centro>I.E.S. Bernaldo de Quirós</mieres:centro>
-        <mieres:localidad>mieresres</mieres:localidad>
-    </mieresres:alumno>
+        <mieres:localidad>mieres</mieres:localidad>
+    </mieres:alumno>
     <gijon1:alumno>
         <gijon1:apellidos>Criado Martínez</gijon1:apellidos>
         <gijon1:nombre>Bernardo</gijon1:nombre>

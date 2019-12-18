@@ -9,12 +9,12 @@ xmlns:evo="http://www.lmsgi.net/evolution">
         <thu:asunto>Asunto</thu:asunto>
         <thu:cuerpo>Mensaje</thu:cuerpo>
     </thu:email>
-    <ou:email>
-        <ou:destinatario>correo@gmail.com</ou:destinatario>
-        <ou:origen>julian@gmail.com</ou:origen>
-        <ou:asunto>Asunto</ou:asunto>
-        <ou:cuerpo>Mensaje</ou:cuerpo>
-    </ou:email>
+    <out:email>
+        <out:destinatario>correo@gmail.com</out:destinatario>
+        <out:origen>julian@gmail.com</out:origen>
+        <out:asunto>Asunto</out:asunto>
+        <out:cuerpo>Mensaje</out:cuerpo>
+    </out:email>
     <evo:email>
         <evo:destinatario>correo@gmail.com</evo:destinatario>
         <evo:origen>julian@gmail.com</evo:origen>
