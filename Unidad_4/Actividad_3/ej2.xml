@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<receta xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemalocation="ej2.xsd">
+    <titulo>Panceta Frita</titulo>
+    <ingrediente>Aceite</ingrediente>
+    <ingrediente>Panceta</ingrediente>
+    <procedimiento>Echar aceite en sarten y panceta, freir</procedimiento>
+    <tiempo>Hasta que se fria</tiempo>
+</receta>

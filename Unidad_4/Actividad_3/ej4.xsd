@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="lista_de_personas">
+        <xs:complexType>
+            <xs:element name="persona" maxOccurs="unbounded">
+                <xs:complexType>
+                    <xs:attribute name="id" type="xs:id"/>
+                    <xs:sequence>
+                        <xs:element name="nombre" type="xs:string"/>
+                        <xs:element name="fechanacimiento" type="xs:date"/>   
+                        <xs:element name="telefono" type="xs:integer" maxOccurs="unbounded"/>
+                        <xs:element name="sexo" type="xs:string" minOccurs="0"/>

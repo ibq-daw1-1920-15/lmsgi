@@ -7,8 +7,8 @@
 ]>
 
 <futbol>
-    <jugador nombre="Alfredo Di Stefano" codigo="1"/>
-    <jugador nombre="Edson Arantes do Nascimento, Pele" codigo="2" />
-    <jugador nombre="Diego Armando Maradona" codigo="3" />
-    <jugador nombre="Johan Cruyff" codigo="4" />
+    <jugador nombre="Alfredo Di Stefano" codigo="c1"/>
+    <jugador nombre="Edson Arantes do Nascimento - Pele" codigo="c2" />
+    <jugador nombre="Diego Armando Maradona" codigo="c3" />
+    <jugador nombre="Johan Cruyff" codigo="c4" />
 </futbol>
