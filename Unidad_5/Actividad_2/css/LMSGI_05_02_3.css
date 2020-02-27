@@ -1,0 +1,11 @@
+body{border: grey 3px solid; width: 400px;}
+a{padding-left: 25px; padding-right: 25px; text-decoration: none; color: black; background-color: silver;}
+a:hover{
+    background-color: rgb(1, 221, 1);
+}
+a:active{
+    background-color: rgb(1, 221, 1);
+}
+a:visited{
+    background-color:  white;
+}
